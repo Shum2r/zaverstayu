@@ -1,36 +1,251 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <title>Сайт начинающего верстальщика</title>
+<head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet"> 
+    <title>
+        Scandi дизайн-студия
+    </title>
+    
+</head>
+<body>
     <header>
-      <nav>
-        На главную
-      </nav>
+        <div class="logo-nav">
+            <div class="logo-name">
+                <img src="img-el/logo.png" alt=" " class="logo" width="25" height="25">
+                <span class="name"> scandi </span>
+            </div>
+            <nav >
+                <ul class="navigation">
+                    <li class="nav-item"><a href="#about-company" alt="О компании">О компании</a></li>
+                    <li class="nav-item"><a href="#portfolio" alt="Портфолио">Портфолио</a></li>
+                    <li class="nav-item"><a href="#our-team" alt="Команда">Команда</a></li>
+                    <li class="nav-item"><a href="#how-we-work" alt="Как мы работаем">Как мы работаем</a></li>
+                    <li class="nav-item"><a href="#customer-reviews" alt="Отзывы клиентов">Отзывы клиентов</a></li>
+                    <li class="nav-item"><a href="#leave-a-request" alt="Оставить заявку">Оставить заявку</a></li>
+                </ul> 
+            </nav>
+            <a class="tel" href="tel:+79818574624">+7 (981) 857-46-24 </a>
+        </div>
+        <section class="slogan-button">
+            <h1 class="slogan">Поможем сделать 
+вашу квартиру 
+уютнее</h1>
+            <p class="service">Подбираем текстиль, мебель и аксессуары 
+под ваш интерьер, находим магазины 
+и помогаем организовать доставку </p>
+                   
+                <div class="button">
+                    <a href="#leave-a-request">Оставить заявку</a>
+                </div>
+           
+        </section>
     </header>
+
     <main>
-      <article>
-        День второй. Как я забыл покормить кота
+        <!--------------------------------about-->
 
-        Кто бы мог подумать, что семантика это так важно, мне срочно нужно было об этом поговорить.
+        <section class="about" id="about-company">
+            <article class="description">
+                <h2 class="description-header">о нас</h2>
+                <div class="description-paragraph">
+                    <p>Премиальный европейский текстиль — одно из самых 
+главных направлений работы коллектива. Создавать 
+неповторимые интерьеры для наших дорогих 
+клиентов, уделяя внимание мельчайшим деталям — 
+вот то,  что по-настоящему вдохновляет дизайнеров 
+нашей студии.
+                        </p>
+                    <p>Наш коллектив сделает все, чтобы после 
+сотрудничества с нами,  Вам было приятно сказать:
+« Да! Это именно то, что действительно достойно моего 
+дома!»</p>
+                </div>
+            </article>
+            <div class="achievements">
+                <ul class="achievements-items">
+                    <li><span class="numbers">5</span>лет опыта</li>
+                    <li><span class="numbers">100</span>проектов</li>
+                    <li><span class="numbers">10</span>наград</li>
+                </ul>
+            </div>
+        </section>
 
-        Взгляд упал на кота. Кот издал настойчивое «Мяу». И я понял — пришло время для первой записи в блог. И покормить кота.
-      </article>
-      <article>
-        День третий. Как я забыл покормить кота
+        <!------------------------------------our-works-->
+        <section class="our-works" id="portfolio">
+            <h2 class="works-header">наши работы</h2>
+            <div class="works1">
+                
+                 <div class="bedroom">   
+                    <div class="text-bedroom">
+                        <p class="bedr-h">    
+Квартира-студия
+30 кв.м.  
+                        </p>
+                        <p class="bedr-p">
+В квартире были светлые стены и тёплые 
+цвета. Мы сконцентрировались 
+на отсылках к природе и сделали ребятам 
+уютный интерьер, отсылающий к виллам 
+островов Бали.
+                        </p>   
+                    </div>   
+                </div>
+                <div class="kitchen">   
+                    <div class="text-kitchen">
+                        <p class="kit-h">    
+Квартира-студия
+30 кв.м. 
+                        </p>
+                        <p class="kit-p">
+В квартире были светлые стены и тёплые цвета. Мы 
+сконцентрировались на отсылках к природе и 
+сделали ребятам уютный интерьер, отсылающий к 
+виллам островов Бали.
+                        </p>   
+                    </div>   
+                    </div>
+            </div>
+            <div class="works2">
+                <div class="living">   
+                    <div class="text-living">
+                        <p class="liv-h">    
+Квартира-студия
+30 кв.м. 
+                        </p>
+                        <p class="liv-p">
+В квартире были светлые стены и тёплые цвета. Мы 
+сконцентрировались на отсылках к природе и 
+сделали ребятам уютный интерьер, отсылающий к
+виллам островов Бали.
+                        </p>   
+                    </div>   
+                </div>
+                <div class="bathroom">   
+                    <div class="text-bathroom">
+                        <p class="bath-h">    
+Квартира-студия
+30 кв.м. 
+                        </p>
+                        <p class="bath-p">
+В квартире были светлые стены и тёплые 
+цвета. Мы сконцентрировались 
+на отсылках к природе и сделали ребятам 
+уютный интерьер, отсылающий к виллам 
+островов Бали.
+                        </p>   
+                    </div>   
+                </div>   
+            </div>
+            <div class="watch-more">
+                <span class="watch">Смотреть ещё </span>
+                <a class="arrow-watch"></a>
+            </div>
+        </section>
 
-        Кто бы мог подумать, что семантика это так важно, мне срочно нужно было об этом поговорить.
+  <!------------------------------------------------------------------------------team-->      
+        <section class="team" id="our-team">
+            <h2 class="team-header">команда</h2>
 
-        Взгляд упал на кота. Кот издал настойчивое «Мяу». И я понял — пришло время для первой записи в блог. И покормить кота.
-      </article>
-      <aside>
-        Здесь могла быть реклама вашего кота.
-      </aside>
+                <div class="participants">
+                    <div class="person">
+                        <img src="img-foto/Masha.png" alt="Дизайнер Мария" width="320">
+                        <p>Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается
+                            и помогает сделать вашу квартиру красивой и уютной.</p>
+                    </div>
+                    <div class="person">
+                        <img src="img-foto/Sasha.png" alt="Менеджер Александра" width="320">
+                        <p>С нашим менеджером Сашей вы познакомитесь в первую очередь. Она проконсультирует вас, соберёт все документы
+                            и ответит на все вопросы.</p>
+                    </div>
+                    <div class="person">
+                        <img src="img-foto/Katya.png" alt="Менеджер Екатерина" width="320">
+                        <p>Катя тоже занимается дизайном.
+                            Она всегда находит общий язык
+                            с клиентами и точно знает,
+                            как обустроить дом так, чтобы вам понравилось.</p>
+                    </div>
+                </div>
+            
+
+            <h2 class="how-work" id="how-we-work">Как мы работаем</h2>
+                <ul class="list-work">
+                    <li class="point">Знакомимся, выезжаем
+                        на объект, утверждаем концепцию, подписываем договор.</li>
+                     
+                    <li class="point">Подбираем мебель, текстиль, аксессуары. Делаем 3D-
+                        визуализацию.</li>
+                    <li class="point">Находим нужные магазины, помогаем с доставкой
+                        и оплатой товаров.</li>
+                    <li class="point">Воплощаем проект в жизнь:
+                        расставляем мебель и цветы, вешаем шторы, находим места для мелочей</li>
+                    </ul>
+        </section>
+<!-------------------------------------------------------reviews---------->
+        <section class="reviews" id="customer-reviews">
+            <h2 class="reviews-header">отзывы</h2>
+
+            <div class="wrapper-arrow-left">
+                <div class="reviews-arrow-left"> </div>
+            </div>
+            
+            <div class="review">
+                <div class="review-text">
+                    <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что 
+                        выбрала вашу студию для украшения своего дома.
+                    </p>
+                    <p>Работа шла быстро, было очень приятно общаться и взаимодействовать
+                        с сотрудниками. Не ожидала, что это будет так легко!</p>
+                    <p>Буду советовать и своим друзьям к вам обращаться!»</p>
+                    <cite class="review-cite"> АННА БЕЛОВСКАЯ</cite>
+                </div>
+                <img class="review-living" src="img-foto/review-living.png" alt="гостинная">
+                <img class="reviev-kitchen" src="img-foto/reviev-kitchen.png" alt="кухня">
+            </div>
+
+            <div class="wrapper-arrow-right">
+                <div class="reviews-arrow-right"> </div>
+            </div>
+
+        </section>
+<!-----------------------------------------------------request---------->
+        <section class="request" id="leave-a-request">
+            <div class="form">
+                <h2 class="request-header">Оставить заявку</h2>
+                <p class="request-text">
+                    Оставьте свои контакты. Менеджер перезвонит
+                    в удобное вам время и ответит на все вопросы.
+                </p>
+
+                <form action="#" method="post">
+                    <div class="input-text">
+                        <input type="text" required placeholder="Ваше имя">
+                    </div>
+                    <div class="input-tel">    
+                        <input type="tel" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required placeholder="Введите телефон">
+                    </div>
+                    <button type="submit" class="request-button">
+                        Оставить заявку
+                    </button>
+                </form>
+
+            </div>
+            <img class="map" src="img-el/map.png" alt="Карта:г. Санкт-петербург, ул. Большая Конюшенная, 19">
+
+        </section>    
+
     </main>
+
     <footer>
-      Подвал сайта
+       <div class="footer-wr"> 
+            <div class="foot-tel">+7 (981) 857-46-24</div>
+            <div class="foot-address">г. Санкт-петербург, ул. Большая Конюшенная, 19</div>
+            <div class="foot-ip">ИП Королёва А.А.</div>
+        </div> 
     </footer>
-  </body>
+
+</body>
 </html>
